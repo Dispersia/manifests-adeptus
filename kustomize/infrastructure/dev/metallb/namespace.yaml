@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: metallb-system
   labels:
-    name: metallb-system
+    name: metallb
