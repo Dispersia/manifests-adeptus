@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - helm-release.yaml
   - helm-repository.yaml
-  - l2advertisment.yaml
   - ipaddresspool.yaml
+  - l2advertisment.yaml
   - namespace.yaml
