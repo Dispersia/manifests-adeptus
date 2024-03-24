@@ -1,1 +1,1 @@
-# manifests-skillbound
+# manifests-adeptus
