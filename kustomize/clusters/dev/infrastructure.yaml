@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
@@ -38,7 +38,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
@@ -55,7 +55,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
@@ -70,7 +70,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
@@ -85,7 +85,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  timeout: 30s
+  timeout: 3m
   sourceRef:
     kind: GitRepository
     name: flux-system
