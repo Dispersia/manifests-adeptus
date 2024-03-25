@@ -17,6 +17,12 @@ spec:
     - name: grafana
       namespace: grafana
       port: 80
+    filters:
+      - type: URLRewrite
+        urlRewrite:
+          path:
+            type: ReplacePrefixMatch
+            replacePrefixMatch: /grafana
 ---
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: ReferenceGrant
