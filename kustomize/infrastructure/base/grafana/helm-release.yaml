@@ -18,6 +18,4 @@ spec:
   values:
     grafana.ini:
       server:
-        domain: 172.20.255.2
         root_url: http://172.20.255.2/grafana
-        serve_from_sub_path: true
