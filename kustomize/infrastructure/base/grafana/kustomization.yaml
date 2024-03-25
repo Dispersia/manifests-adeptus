@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
   - helm-release.yaml
   - helm-repository.yaml
+  - http-route.yaml
   - namespace.yaml
   - mimir
