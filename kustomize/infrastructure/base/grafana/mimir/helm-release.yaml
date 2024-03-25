@@ -9,7 +9,7 @@ spec:
   chart:
     spec:
       chart: mimir-distributed
-      version: 0.12.0
+      version: 5.3.0-weekly.281
       sourceRef:
         kind: HelmRepository
         name: grafana
