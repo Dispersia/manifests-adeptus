@@ -15,3 +15,6 @@ spec:
         name: grafana
         namespace: grafana
       interval: 5m
+  values:
+    server:
+      root_url: http://172.20.255.2/grafana
